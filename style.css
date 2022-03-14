@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=PT+Sans&display=swap');
+
+/* Global */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Classes */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    color: white;
+    background-color: none;
+
+    border: 1px solid white;
+    border-radius: 213742069px;
+
+    text-decoration: none;
+    transition-duration: 250ms;
+    padding: 10px 15px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #3F3D9F;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 970px;
+}
+
+header nav div img {
+    height: 30px;
+}
+
+nav div {
+    font-family: 'ABeeZee';
+    user-select: none;
+}
+
+/* Header */
+
+header {
+    background: rgb(68,82,170);
+    background: radial-gradient(circle, rgba(68,82,170,1) 13%, rgba(63,54,154,1) 100%);
+
+    color: white;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    max-width: 970px;
+    /* margin: 0 0 100px 0; */
+}
+
+#header img {
+    height: 500px;
+}
