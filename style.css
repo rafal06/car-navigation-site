@@ -51,6 +51,7 @@ header nav div img {
 nav div {
     font-family: 'ABeeZee';
     user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Header */
