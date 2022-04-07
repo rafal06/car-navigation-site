@@ -98,7 +98,7 @@ main {
     padding: 20px;
     width: min(970px, 90vw);
     background-color: white;
-    box-shadow: -0px 10px 50px -5px;
+    box-shadow: -0px 10px 50px -5px #00000055;
     position: relative;
     top: -50px;
 }
