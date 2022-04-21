@@ -18,10 +18,22 @@ body {
     align-items: center;
 }
 
+.flex-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 15px 15px;
+}
+
+.no-margin {
+    margin: 0;
 }
 
 .button {
@@ -125,4 +137,33 @@ main {
 .features-card img {
     width: 75px;
     margin-right: 10px;
+}
+
+/* Enterprise solutions */
+
+.enterprise h2 {
+    margin-bottom: 2px;
+}
+
+#enterprise-items div {
+    width: 255px;
+    margin: 10px 10px;
+}
+
+#enterprise-items div p {
+    text-align: center;
+}
+
+.enterprise img {
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.enterprise, #enterprise-items {
+    margin-top: 10px;
+}
+
+.enterprise {
+    margin-bottom: 50px;
 }
